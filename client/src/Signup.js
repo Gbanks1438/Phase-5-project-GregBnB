@@ -45,9 +45,9 @@ const Signup = () => {
   }
 
   return (
-    <>
-      <h1>Signup Here!</h1>
-      <form className="form-div" onSubmit={handleSubmit}>
+    <div className="auth-div" >
+      <h1>Sign Up</h1>
+      <form onSubmit={handleSubmit}>
       <label htmlFor="username">Username:</label>
         <input
           id="username-signup-input"
@@ -108,10 +108,11 @@ const Signup = () => {
       <br /><br />
       <div className="form-div">
       <Link className="a-div" to="/" replace>
-        Or, log in here!
+        Log In
       </Link>
       </div>
-    </>
+      <br />
+    </div>
   );
 };
 

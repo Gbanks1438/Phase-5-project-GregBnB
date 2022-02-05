@@ -40,8 +40,8 @@ const Login = ({setUser}) => {
   }
 
   return (
-    <>
-      <h1>Please Log In</h1>
+    <div className="auth-div">
+      <h1>Log In</h1>
       <form className="form-div" onSubmit={handleSubmit}>
         <label htmlFor="username">Username: </label>
         <input
@@ -61,16 +61,18 @@ const Login = ({setUser}) => {
           onChange={handleChange}
         />
         <br />
+        <br />
         <button type="submit" className="Button">Submit</button>
       </form>
       <br />
       <br />
         <div className="form-div">
       <Link className="a-div" to="/signup" replace>
-        Or, sign up first!
+        Sign Up
       </Link>
       </div>
-    </>
+      <br />
+    </div>
   );
 };
 

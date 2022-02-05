@@ -1,5 +1,6 @@
 import './App.css';
 import logo from './logo.svg';
+import logo2 from './Images/welcome-mat.png';
 import LoggedIn from './LoggedIn.js';
 import LoggedOut from './LoggedOut.js';
 import { useEffect, useState } from 'react';
@@ -25,7 +26,7 @@ function App() {
   
   if (!authenticated) {
     return (<div>
-      PLEASE SIGN IN FIRST!
+      PLEASE SIGN IN AND REFRESH THE PAGE!
       <img src={logo} className="App-logo" alt="logo" />
       </div>)
   }
@@ -41,7 +42,7 @@ function App() {
         ) : (
           <LoggedOut setUser={setUser} />
         )}
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo2} className="App-logo" alt="logo2" />
     </div>
   );
 }
