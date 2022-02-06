@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from './Images/welcome-mat.png';
 
 const Login = ({setUser}) => {
   console.log("What is this?" , setUser) 
@@ -67,11 +68,14 @@ const Login = ({setUser}) => {
       <br />
       <br />
         <div className="form-div">
-      <Link className="a-div" to="/signup" replace>
+      <Link className="log-div" to="/signup" replace>
         Sign Up
       </Link>
       </div>
       <br />
+      <div>
+       <img src={logo} className="App-logo" alt="logo" />
+      </div>
     </div>
   );
 };

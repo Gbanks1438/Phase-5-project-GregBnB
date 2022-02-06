@@ -25,7 +25,6 @@ function Navbar({setUser}) {
                     <NavLink to='/reservations'>Reservations</NavLink>
                 </li>
                 <li className='nav-links'>
-                <br/> <br/>
                     <NavLink to='/around_town'>Around Town</NavLink>
                 </li>
                 <button className="Logout-button" onClick={handleLogout}>Logout</button>

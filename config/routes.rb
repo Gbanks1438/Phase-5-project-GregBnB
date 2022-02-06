@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   resources :room_amenities, only: [:index, :show]
   resources :amenities, only: [:index, :show]
   resources :rooms, only: [:index, :show]
-  resources :reservations, only: [:show, :create, :update, :destroy]
+  resources :reservations
   resources :properties, only: [:index, :show]
-  resources :users, only: [:show, :create, :update, :destroy]
+  resources :users
   # rails g resources around_town ->resources :around_town, only: [:index, :show]
 
   post "/login", to: "sessions#login" #200 OK

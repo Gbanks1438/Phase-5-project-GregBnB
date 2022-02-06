@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2022_02_04_173014) do
     t.string "name"
     t.string "address"
     t.string "img_url"
-    t.boolean "has_cell_reception"
+    t.string "has_cell_reception"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

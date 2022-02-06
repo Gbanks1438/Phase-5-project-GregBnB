@@ -4,7 +4,7 @@ class CreateProperties < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :address
       t.string :img_url
-      t.boolean :has_cell_reception
+      t.string :has_cell_reception
 
       t.timestamps
     end

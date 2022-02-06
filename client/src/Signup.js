@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import logo from './Images/welcome-mat.png';
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -69,7 +70,7 @@ const Signup = () => {
         <label htmlFor="password">Password Confirmation:</label>
         <input
           id="password-confirmation-signup-input"
-          type="password_confirmation"
+          type="password"
           name="password_confirmation"
           value={formData.password_confirmation}
           onChange={handleChange}
@@ -107,11 +108,14 @@ const Signup = () => {
       </form>
       <br /><br />
       <div className="form-div">
-      <Link className="a-div" to="/" replace>
+      <Link className="log-div" to="/" replace>
         Log In
       </Link>
       </div>
       <br />
+      <div>
+       <img src={logo} className="App-logo" alt="logo" />
+      </div>
     </div>
   );
 };

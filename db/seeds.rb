@@ -41,21 +41,21 @@ property1 = Property.create(
     name: "Lake House",
     address: "Big Bowman Pond, NY",
     img_url: "https://wallpapercave.com/wp/wp4432733.jpg",
-    has_cell_reception: true
+    has_cell_reception: "Fair signal - 4G LTE"
 )
 
 property2 = Property.create(
     name: "Adirondack Mountain Lodge",
     address: "Lake Placid, NY",
     img_url: "https://wallpaperaccess.com/full/918143.jpg",
-    has_cell_reception: false
+    has_cell_reception: "Strong signal - 5G LTE"
 )
 
 property3 = Property.create(
     name: "Fire Island Beach House",
     address: "Ocean Beach LI, NY",
-    img_url: "https://files.erealtymedia.com/Media/Image/108512492/16b15e79-bd6b-4696-88c6-a1224ceae4a8.1.jpg?v=50926389229",
-    has_cell_reception: true
+    img_url: "https://images.butlerarmsden.com/work/Stinson-Color-Fix/_projectBanner/Butler_Armsden_Scavullo-Stinson-0184.jpg",
+    has_cell_reception: "Poor signal - 4G LTE"
 )
 
 puts "🏕 Seeding Rooms..."
@@ -522,6 +522,7 @@ room_amenity21 = RoomAmenity.create(
     amenity_id: 10, 
     amenity_id: 16,
     amenity_id: 17,
+    amenity_id: 20,
     amenity_id: 21
 )
 
@@ -535,6 +536,7 @@ room_amenity22 = RoomAmenity.create(
     amenity_id: 13,
     amenity_id: 14,
     amenity_id: 15,
+    amenity_id: 16,
     amenity_id: 17
 )
 
