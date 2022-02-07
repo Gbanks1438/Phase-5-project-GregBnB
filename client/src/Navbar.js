@@ -21,6 +21,9 @@ function Navbar({setUser}) {
                 <li className='nav-links'>
                     <NavLink to='/'>Home</NavLink>
                 </li>
+                <li className='nav-links'>
+                    <NavLink to='/rooms'>Rooms</NavLink>
+                </li>
                    <li className='nav-links'>
                     <NavLink to='/reservations'>Reservations</NavLink>
                 </li>

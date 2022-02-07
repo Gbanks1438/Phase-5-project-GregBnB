@@ -1,5 +1,7 @@
+import { useState, useEffect } from 'react';
+
 function RoomCard () {
-    
+
     const [roomsArray, setRooms] = useState( [] )
 
     useEffect( 
@@ -29,13 +31,9 @@ function RoomCard () {
                 <thead>
                     <tr>
                         <th>Room Number:</th>
-                            <br />
                         <th>Floor Number:</th>
-                            <br />
                         <th>Number Of Beds:</th>
-                            <br />
                         <th>Bed Size:</th>
-                            <br />
                         <th>Room Type:</th>
                     </tr>
                 </thead>
@@ -46,25 +44,21 @@ function RoomCard () {
                         aRoom.room_num
                         }
                         </td>
-                            <br />
                         <td>
                         {
                         aRoom.floor_num
                         }
                         </td>
-                            <br />
                         <td>
                         {
                         aRoom.num_of_beds
                         }
                         </td>
-                            <br />
                         <td>
                         {
                         aRoom.bed_size
                         }
                         </td>
-                            <br />
                         <td>
                         {
                         aRoom.room_type
@@ -74,8 +68,6 @@ function RoomCard () {
                 </tbody>
             </table>
                 <hr />
-                <br />
-                <br />
         </div>
         );
         

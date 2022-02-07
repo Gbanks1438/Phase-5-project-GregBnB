@@ -21,6 +21,22 @@ function Home () {
         }
       , [] )
 
+      const [roomsArray, setRooms] = useState( [] )
+
+      useEffect( 
+          ()=>{        
+            fetch("/rooms", {
+              mode: 'cors',
+              headers: {'Access-Control-Allow-Origin':'*'}
+            })
+            .then( r => r.json() )
+            .then(
+            (fetchedRoomsArray)=>{
+              setRooms( [ ...fetchedRoomsArray ] )
+              }
+            )
+          }
+        , [] )
 
     return (
         <div className="home-div">

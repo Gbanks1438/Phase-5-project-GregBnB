@@ -3,6 +3,7 @@ import AroundTown from './AroundTown.js';
 import Account from './Account.js';
 import Home from './Home.js';
 import { Routes, Route } from "react-router-dom";
+import RoomCard from './RoomCard.js';
 
 const Routing = ({setUser}) => {
   return (
@@ -12,6 +13,8 @@ const Routing = ({setUser}) => {
     <Route path='/account' element={<Account setUser={setUser}/>} />
     
     <Route path='/' element={<Home />} />
+
+    <Route path='/rooms' element={<RoomCard />} />
 
     <Route path='/reservations' element={<Reservation />} />
 

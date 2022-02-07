@@ -11,29 +11,29 @@ puts "🏕 Seeding Users..."
 
 puts "🏕 Seeding Reservations..."
 
-reservation1 = Reservation.create(
-    num_guests: 14,
-    start_date: DateTime.strptime("09/26/2022 17:00", "%m/%d/%Y %H:%M"),
-    end_date: DateTime.strptime("10/02/2022 19:00", "%m/%d/%Y %H:%M"),
-    user_id: 1,
-    property_id: 1
-)
+# reservation1 = Reservation.create(
+#     num_guests: 14,
+#     start_date: DateTime.strptime("09/26/2022 17:00", "%m/%d/%Y %H:%M"),
+#     end_date: DateTime.strptime("10/02/2022 19:00", "%m/%d/%Y %H:%M"),
+#     user_id: 1,
+#     property_id: 1
+# )
 
-reservation2 = Reservation.create(
-    num_guests: 8,
-    start_date: DateTime.strptime("11/23/2022 17:00", "%m/%d/%Y %H:%M"),
-    end_date: DateTime.strptime("11/27/2022 19:00", "%m/%d/%Y %H:%M"),
-    user_id: 1,
-    property_id: 2
-)
+# reservation2 = Reservation.create(
+#     num_guests: 8,
+#     start_date: DateTime.strptime("11/23/2022 17:00", "%m/%d/%Y %H:%M"),
+#     end_date: DateTime.strptime("11/27/2022 19:00", "%m/%d/%Y %H:%M"),
+#     user_id: 1,
+#     property_id: 2
+# )
 
-reservation3 = Reservation.create(
-    num_guests: 6,
-    start_date: DateTime.strptime("12/22/2022 17:00", "%m/%d/%Y %H:%M"),
-    end_date: DateTime.strptime("12/26/2022 19:00", "%m/%d/%Y %H:%M"),
-    user_id: 1,
-    property_id: 3
-)
+# reservation3 = Reservation.create(
+#     num_guests: 6,
+#     start_date: DateTime.strptime("12/22/2022 17:00", "%m/%d/%Y %H:%M"),
+#     end_date: DateTime.strptime("12/26/2022 19:00", "%m/%d/%Y %H:%M"),
+#     user_id: 1,
+#     property_id: 3
+# )
 
 puts "🏕 Seeding Properties..."
 

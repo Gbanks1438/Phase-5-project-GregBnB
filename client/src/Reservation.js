@@ -14,7 +14,6 @@ function Reservation () {
           .then(
           (fetchedReservationsArray)=>{
           setReservation( [ ...fetchedReservationsArray ] )
-        // console.log("Did we get fetchedReservationsArray?", fetchedReservationsArray)
             }
           )
         }
@@ -29,7 +28,7 @@ function Reservation () {
       });
 
       const handleChange = (e) => {
-        console.log("")
+        console.log("handleChange?")
         setFormData({
           ...formData,
           [e.target.name]: e.target.value,
@@ -69,7 +68,7 @@ function Reservation () {
       <label htmlFor="guests">Number Of Guests:</label>
         <input
           id="guests-booking-input"
-          type="text"
+          type="number"
           name="num_guests"
           value={formData.num_guests}
           onChange={handleChange}
@@ -93,23 +92,28 @@ function Reservation () {
           onChange={handleChange}
         />
         <br />
-        <label htmlFor="user_alias">Your Name:</label>
+        <label htmlFor="user_alias">Your ID:</label>
         <input
           id="user_alias-booking-input"
-          type="text"
+          type="number"
           name="user_id"
           value={formData.user_id}
           onChange={handleChange}
         />
         <br />
         <label htmlFor="property_id">Location:</label>
-        <input
+        <select id="property-booking-input" name="property_id" onChange={handleChange}>
+          <option value={formData.property_id = 1}>Lake House - Big Bowman Pond, NY</option>
+          <option value={formData.property_id = 2}>Adirondack Mountain Lodge - Lake Placid, NY</option>
+          <option value={formData.property_id = 3}>Fire Island Beach House - Ocean Beach LI, NY</option>
+        </select>
+        {/* <input
           id="property-booking-input"
           type="text"
           name="property_id"
           value={formData.property_id}
           onChange={handleChange}
-        />
+        /> */}
         <br />
         <br />
         <button type="submit" className="Button">Book Now!</button>

@@ -1,4 +1,4 @@
-.home-div, .welcome-h1, .App {
+.home-div, .App {
   text-align: center;
 }
 
@@ -8,10 +8,17 @@
   background-color: #9B9892;
 }
 
+.welcome-h1 {
+  text-align: center;
+  font-size: calc(12px + 2vmin);
+  background-color: #9B9892;
+  text-shadow: 2px 2px 2px white;
+}
+
 .log-div {
   text-decoration: none;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 2px #000000;
   font-size: calc(10px + 2vmin);
   border-style: double;
   padding: 10px;
@@ -25,7 +32,29 @@
   font-weight: bold;
   font-size: calc(6px + 2vmin);
   display: inline;
-  margin: 8%;
+  margin: 6%;
+}
+
+/* unvisited link */
+a:link {
+  color: #9B9892;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+/* visited link */
+a:visited {
+  color: #9B9892;
+}
+
+/* mouse over link */
+a:hover {
+  color: #d4b897;
+}
+
+/* selected link */
+a:active {
+  color: #77d891;
 }
 
 .room-button, .Button {
@@ -56,9 +85,18 @@ table {
   width: 100%;
 }
 
-th, td {
+th {
   border: 1px solid black;
   padding: 10px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  color: #77d891;
+  text-shadow: 2px 2px 2px #000000;
+  font-weight: bold;
+  text-align: center;
 }
 
 .hr {
@@ -82,4 +120,12 @@ h1 {
 
 .filter {
   margin-left: 46%;
+}
+
+.Image {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
