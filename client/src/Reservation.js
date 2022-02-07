@@ -29,6 +29,7 @@ function Reservation () {
       });
 
       const handleChange = (e) => {
+        console.log("")
         setFormData({
           ...formData,
           [e.target.name]: e.target.value,
@@ -68,8 +69,8 @@ function Reservation () {
       <label htmlFor="guests">Number Of Guests:</label>
         <input
           id="guests-booking-input"
-          type="number"
-          name="guests"
+          type="text"
+          name="num_guests"
           value={formData.num_guests}
           onChange={handleChange}
         />
@@ -78,7 +79,7 @@ function Reservation () {
         <input
           id="start_date-booking-input"
           type="datetime-local"
-          name="date"
+          name="start_date"
           value={formData.start_date}
           onChange={handleChange}
         />
@@ -87,15 +88,15 @@ function Reservation () {
         <input
           id="end_date-booking-input"
           type="datetime-local"
-          name="date"
+          name="end_date"
           value={formData.end_date}
           onChange={handleChange}
         />
         <br />
-        <label htmlFor="user_id">Your ID:</label>
+        <label htmlFor="user_alias">Your Name:</label>
         <input
-          id="user_id-booking-input"
-          type="number"
+          id="user_alias-booking-input"
+          type="text"
           name="user_id"
           value={formData.user_id}
           onChange={handleChange}
@@ -104,9 +105,9 @@ function Reservation () {
         <label htmlFor="property_id">Location:</label>
         <input
           id="property-booking-input"
-          type="number"
-          name="property"
-          value={formData.property}
+          type="text"
+          name="property_id"
+          value={formData.property_id}
           onChange={handleChange}
         />
         <br />

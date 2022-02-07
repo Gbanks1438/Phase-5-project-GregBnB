@@ -28,7 +28,7 @@
   margin: 8%;
 }
 
-.Button {
+.room-button, .Button {
   font-size: calc(10px + 2vmin);
   background-color: #d4b897;
 }
@@ -39,8 +39,13 @@
 }
 
 .edit-button, .Update-button {
-    font-size: calc(6px + 2vmin);
-    background-color: #abc7b2;
+  font-size: calc(6px + 2vmin);
+  background-color: #abc7b2;
+}
+
+.room-button {
+  font-size: calc(14px + 2vmin);
+  background-color: #d4b897;
 }
 
 table {
@@ -58,4 +63,23 @@ th, td {
 
 .hr {
   color: black;
+}
+
+.list-div {
+  text-align: center;
+  font-weight: bold;
+  font-size: calc(6px + 2vmin);
+  background-color: #9B9892;
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: calc(16px + 2vmin);
+  text-align: center;
+} 
+
+.filter {
+  margin-left: 46%;
 }

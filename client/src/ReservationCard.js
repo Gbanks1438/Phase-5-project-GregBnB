@@ -2,10 +2,6 @@ function ReservationCard ({aReservation}) {
     
     return (
         <div className="rez-card-div">
-            <img src={
-                aReservation.property_id.img_url
-                } className="Image" alt="Reservation Listing" />
-
             <table>
                 <thead>
                     <tr>

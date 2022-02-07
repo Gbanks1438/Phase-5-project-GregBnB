@@ -12,6 +12,16 @@ class ReservationsController < ApplicationController
         end
     end
 
+    def create
+      new_rez = Reservation.new(reservation_params)
+      if new_rez.save
+          session[:user_id] = new_rez.id
+          render json: new_rez, status: :created
+      else
+          render json: {errors: new_rez.errors.full_messages}, status: :unprocessable_entity
+      end
+    end
+
     def update
         reservation = Reservation.find_by_id(params[:id])
         if reservation

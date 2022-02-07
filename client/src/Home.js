@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import PropertyCard from "./PropertyCard";
 import { useState, useEffect } from 'react';
 
@@ -13,8 +14,8 @@ function Home () {
           })
           .then( r => r.json() )
           .then(
-          (fetchedpropertiesArray)=>{
-          setProperties( [ ...fetchedpropertiesArray ] )
+          (fetchedPropertiesArray)=>{
+          setProperties( [ ...fetchedPropertiesArray ] )
             }
           )
         }
@@ -34,8 +35,12 @@ function Home () {
                     </div>
                 )
             })}
+        <Link to="/rooms" replace>
+        <button className='room-button'>View Our Rooms</button>
+        </Link>
+        <br /> 
         </div>
-    );
+    )
   };
   
   export default Home;

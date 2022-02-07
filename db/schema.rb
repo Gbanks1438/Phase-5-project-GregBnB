@@ -10,10 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_04_173014) do
+ActiveRecord::Schema.define(version: 2022_02_06_185728) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "activities", force: :cascade do |t|
+    t.string "name"
+    t.string "category"
+    t.string "url"
+    t.string "location"
+    t.bigint "property_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["property_id"], name: "index_activities_on_property_id"
+  end
 
   create_table "amenities", force: :cascade do |t|
     t.string "amenity_type"
@@ -74,6 +85,7 @@ ActiveRecord::Schema.define(version: 2022_02_04_173014) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "activities", "properties"
   add_foreign_key "reservations", "properties"
   add_foreign_key "reservations", "users"
   add_foreign_key "room_amenities", "amenities"

@@ -1,18 +1,20 @@
+// import {Link} from 'react-router-dom';
 function PropertyCard ({aProperty}) {
     
     return (
         <div className="Card-div">
+        {/* <Link to="/rooms" replace> */}
             <img src={
                 aProperty.img_url
-                } className="Image" alt="Property Listing" />
-
+            } className="Image" alt="Property Listing" />
+        {/* </Link> */}
             <table>
                 <thead>
                     <tr>
                         <th>Name:</th>
-                        <br />
+                            <br />
                         <th>Address:</th>
-                        <br />
+                            <br />
                         <th>Cell reception:</th>
                     </tr>
                 </thead>
@@ -20,16 +22,16 @@ function PropertyCard ({aProperty}) {
                     <tr>
                         <td>
                         {
-                       aProperty.name
+                        aProperty.name
                         }
                         </td>
-                        <br />
+                            <br />
                         <td>
                         {
                         aProperty.address
                         }
                         </td>
-                        <br />
+                            <br />
                         <td>
                         {
                         aProperty.has_cell_reception
@@ -38,9 +40,9 @@ function PropertyCard ({aProperty}) {
                     </tr>
                 </tbody>
             </table>
-            <hr />
-            <br />
-            <br />
+                <hr />
+                <br />
+                <br />
         </div>
         );
       };
