@@ -67,6 +67,7 @@ room1 = Room.create(
     bed_size: "n/a",
     img_url: "https://www.thelilypadcottage.com/wp-content/uploads/2018/05/white-lake-house-living-room-decor-1.jpg",
     room_type: "Living Room",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -77,6 +78,7 @@ room2 = Room.create(
     bed_size: "n/a",
     img_url: "https://alamaisonaccents.files.wordpress.com/2020/03/cross-lake-house-kitchen-4-better-prof.jpg",
     room_type: "Kitchen",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -87,6 +89,7 @@ room3 = Room.create(
     bed_size: "King Mattress",
     img_url: "https://studio-mcgee.com/app/uploads/2020/09/studiomcgee_lakehouse_194.jpg",
     room_type: "Master Suite",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -97,6 +100,7 @@ room4 = Room.create(
     bed_size: "n/a",
     img_url: "https://studio-mcgee.com/app/uploads/2020/09/studiomcgee_lakehouse_239_302c79f495642bac1f362cb553b9a25a.jpg",
     room_type: "Bathroom",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -107,6 +111,7 @@ room5 = Room.create(
     bed_size: "n/a",
     img_url: "https://keyes-plumbing.com/wp-content/uploads/2017/01/Kirby_9.27.161842-e1485462229979.jpg",
     room_type: "Laundry",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -117,6 +122,7 @@ room6 = Room.create(
     bed_size: "n/a",
     img_url: "https://cdn.decorpad.com/photos/2019/09/16/lake-house-work-space-with-maple-wood-top-island.jpg",
     room_type: "Office",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -127,6 +133,7 @@ room7 = Room.create(
     bed_size: "n/a",
     img_url: "https://www.thelilypadcottage.com/wp-content/uploads/2018/02/lake-house-family-room-basement-8.jpg",
     room_type: "Basement",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -137,6 +144,7 @@ room8 = Room.create(
     bed_size: "Full Mattresses",
     img_url: "https://foter.com/photos/401/l-shaped-bunk-beds-for-triplets-in-white.jpeg",
     room_type: "Bedroom",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -147,6 +155,7 @@ room9 = Room.create(
     bed_size: "n/a",
     img_url: "https://st.hzcdn.com/simgs/pictures/bathrooms/lake-house-guest-bath-crystal-kitchen-bath-img~7681cdde0f108575_9-8263-1-fbc2cbd.jpg",
     room_type: "Bathroom",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -157,6 +166,7 @@ room10 = Room.create(
     bed_size: "n/a",
     img_url: "https://i.pinimg.com/originals/44/f4/ed/44f4ed30a51a781757851bb25229cbe6.jpg",
     room_type: "Bathroom",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -167,6 +177,7 @@ room11 = Room.create(
     bed_size: "Queen Mattress",
     img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCUWghb90Raja_Yb0trhQnvS_Xw2KLVdCag&usqp=CAU",
     room_type: "Bedroom",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -177,6 +188,7 @@ room12 = Room.create(
     bed_size: "Queen Mattress",
     img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzMWX-zB1ThSk8yPd009Jf0TkPg4Nldbv8lg&usqp=CAU",
     room_type: "Bedroom",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -187,6 +199,7 @@ room13 = Room.create(
     bed_size: "n/a",
     img_url: "https://i.pinimg.com/474x/4f/c7/9c/4fc79c8f2dc446aa81f1937b58847dae.jpg",
     room_type: "Garage",
+    location: "West Sand Lake N.Y.",
     property_id: 1
 )
 
@@ -197,6 +210,7 @@ room14 = Room.create(
     bed_size: "n/a",
     img_url: "https://st.hzcdn.com/simgs/pictures/living-rooms/timeless-adirondack-style-ann-stillman-o-leary-img~b411d4460bd73750_14-5608-1-a13c719.jpg",
     room_type: "Living Room",
+    location: "Lake Placid ADK",
     property_id: 2
 )
 
@@ -207,6 +221,7 @@ room15 = Room.create(
     bed_size: "n/a",
     img_url: "https://st.hzcdn.com/simgs/pictures/kitchens/timeless-adirondack-style-ann-stillman-o-leary-img~30a140fa0bd73767_9-6012-1-448184c.jpg",
     room_type: "Kitchen",
+    location: "Lake Placid ADK",
     property_id: 2
 )
 
@@ -217,6 +232,7 @@ room16 = Room.create(
     bed_size: "King Mattress",
     img_url: "https://gallery.streamlinevrs.com/units-gallery/00/04/7D/image_153732532.jpeg",
     room_type: "Master Suite",
+    location: "Lake Placid ADK",
     property_id: 2
 )
 
@@ -227,6 +243,7 @@ room17 = Room.create(
     bed_size: "n/a",
     img_url: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rustic-bathrooms-4-1561402515.jpg",
     room_type: "Bathroom",
+    location: "Lake Placid ADK",
     property_id: 2
 )
 
@@ -237,6 +254,7 @@ room18 = Room.create(
     bed_size: "n/a",
     img_url: "https://i.pinimg.com/originals/2d/79/14/2d7914e9a72f051eb23ce01fe3657655.jpg",
     room_type: "Laundry",
+    location: "Lake Placid ADK",
     property_id: 2
 )
 
@@ -247,6 +265,7 @@ room19 = Room.create(
     bed_size: "Full Mattresses",
     img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuH8DVXlnxgQHS48DJi1CQebgOWVI75ta78A&usqp=CAU",
     room_type: "Bedroom",
+    location: "Lake Placid ADK",
     property_id: 2
 )
 
@@ -257,6 +276,7 @@ room20 = Room.create(
     bed_size: "Full Mattresses",
     img_url: "https://www.loghome.com/assets/img/cache/Miller-16-256x288.jpg",
     room_type: "Bedroom",
+    location: "Lake Placid ADK",
     property_id: 2
 )
 
@@ -267,6 +287,7 @@ room21 = Room.create(
     bed_size: "n/a",
     img_url: "https://static.wixstatic.com/media/e33e3a_c86bb74c33e64b37beefa73b05938c6f~mv2_d_4000_2848_s_4_2.jpg/v1/fill/w_1600,h_1139,al_c,q_90/file.jpg",
     room_type: "Garage",
+    location: "Lake Placid ADK",
     property_id: 2
 )
 
@@ -277,6 +298,7 @@ room22 = Room.create(
     bed_size: "n/a",
     img_url: "https://sugarsbeach.com/wp-content/uploads/2018/09/Beach-Haven-New-Jersey-House-Living-Room.jpg",
     room_type: "Living Room",
+    location: "Fire Island L.I.",
     property_id: 3
 )
 
@@ -287,6 +309,7 @@ room23 = Room.create(
     bed_size: "n/a",
     img_url: "https://www.thespruce.com/thmb/nS5QufZx_fHNGTNZD4-o2fOs-OI=/2208x1242/smart/filters:no_upscale()/RGP-0036-6a2cd4ec7e904a96a8f7ba0639402b5b.jpeg",
     room_type: "Kitchen",
+    location: "Fire Island L.I.",
     property_id: 3
 )
 
@@ -297,6 +320,7 @@ room24 = Room.create(
     bed_size: "King Mattress",
     img_url: "https://i.ytimg.com/vi/yzXtITmwUp0/hqdefault.jpg",
     room_type: "Master Suite",
+    location: "Fire Island L.I.",
     property_id: 3
 )
 
@@ -307,6 +331,7 @@ room25 = Room.create(
     bed_size: "n/a",
     img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVSg5St0O7aEsEwfNGwF2-Ztcu5FAeb934675STigwl8CbSxBsvdBjVmPYqO1S6pJnqbQ&usqp=CAU",
     room_type: "Bathroom",
+    location: "Fire Island L.I.",
     property_id: 3
 )
 
@@ -317,6 +342,7 @@ room26 = Room.create(
     bed_size: "n/a",
     img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3IIGYWuycJI7TroaeesTZz3ULjhjHtzm31g&usqp=CAU",
     room_type: "Laundry",
+    location: "Fire Island L.I.",
     property_id: 3
 )
 
@@ -327,6 +353,7 @@ room27 = Room.create(
     bed_size: "Full Mattresses",
     img_url: "https://images.squarespace-cdn.com/content/v1/59e9f6d1b07869a5b50bfd1e/1518697692618-ACKNMQ90WKQFYM19W3RC/Final+Bunk+Room+2.13.18.jpg?format=1000w",
     room_type: "Bedroom",
+    location: "Fire Island L.I.",
     property_id: 3
 )
 
@@ -676,7 +703,7 @@ activity1 = Activity.create(
 	category: "Dining",
     url: "https://www.thetownetavern.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity2 = Activity.create(
@@ -684,7 +711,7 @@ activity2 = Activity.create(
 	category: "Dining",
     url: "https://www.facebook.com/TheBeerDiviner/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity3 = Activity.create(
@@ -692,7 +719,7 @@ activity3 = Activity.create(
 	category: "Dining",
     url: "https://ajspizzeriany.weebly.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity4 = Activity.create(
@@ -700,7 +727,7 @@ activity4 = Activity.create(
 	category: "Dining",
     url: "http://www.gregoryhouse.com/laperla/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity5 = Activity.create(
@@ -708,7 +735,7 @@ activity5 = Activity.create(
 	category: "Dining",
     url: "https://www.paulascountrykitchen.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity6 = Activity.create(
@@ -716,7 +743,7 @@ activity6 = Activity.create(
 	category: "Dining",
     url: "https://www.crystallakeview.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity7 = Activity.create(
@@ -724,7 +751,7 @@ activity7 = Activity.create(
 	category: "Dining",
     url: "https://www.messhall518.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity8 = Activity.create(
@@ -732,7 +759,7 @@ activity8 = Activity.create(
 	category: "Dining",
     url: "https://www.tighesbistroamericain.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity9 = Activity.create(
@@ -740,7 +767,7 @@ activity9 = Activity.create(
 	category: "Dining",
     url: "https://www.olddaley.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity10 = Activity.create(
@@ -748,7 +775,7 @@ activity10 = Activity.create(
 	category: "Dining",
     url: "https://www.gipfelcoffee.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity11 = Activity.create(
@@ -756,7 +783,7 @@ activity11 = Activity.create(
 	category: "Dining",
     url: "https://www.paololombardis.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity12 = Activity.create(
@@ -764,7 +791,7 @@ activity12 = Activity.create(
 	category: "Dining",
     url: "https://tipsymoosetavern.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity13 = Activity.create(
@@ -772,7 +799,7 @@ activity13 = Activity.create(
 	category: "Dining",
     url: "https://garlicloverscorner.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity14 = Activity.create(
@@ -780,7 +807,7 @@ activity14 = Activity.create(
 	category: "Dining",
     url: "https://www.alexisdiner.us/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity15 = Activity.create(
@@ -788,7 +815,7 @@ activity15 = Activity.create(
 	category: "Dining",
     url: "https://www.brownsbrewing.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity16 = Activity.create(
@@ -796,7 +823,7 @@ activity16 = Activity.create(
 	category: "Dining",
     url: "https://www.dinosaurbarbque.com/troy/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity17 = Activity.create(
@@ -804,7 +831,7 @@ activity17 = Activity.create(
 	category: "Dining",
     url: "https://www.wolffsbiergarten.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity18 = Activity.create(
@@ -812,7 +839,7 @@ activity18 = Activity.create(
 	category: "Dining",
     url: "https://www.juniorsbarandgrill.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity19 = Activity.create(
@@ -820,7 +847,7 @@ activity19 = Activity.create(
 	category: "Dining",
     url: "https://www.tedsfishfry.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity20 = Activity.create(
@@ -828,7 +855,7 @@ activity20 = Activity.create(
 	category: "Dining",
     url: "https://www.677prime.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity21 = Activity.create(
@@ -836,7 +863,7 @@ activity21 = Activity.create(
 	category: "Dining",
     url: "https://www.facebook.com/The-Plum-Blossom-Restaurant-366108910071044/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity22 = Activity.create(
@@ -844,7 +871,7 @@ activity22 = Activity.create(
 	category: "Dining",
     url: "https://thetroybeergarden.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity23 = Activity.create(
@@ -852,7 +879,7 @@ activity23 = Activity.create(
 	category: "Dining",
     url: "https://www.plumb.bar/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity24 = Activity.create(
@@ -860,7 +887,7 @@ activity24 = Activity.create(
 	category: "Dining",
     url: "http://www.ryanswake.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity25 = Activity.create(
@@ -868,7 +895,7 @@ activity25 = Activity.create(
 	category: "Dining",
     url: "https://www.facebook.com/udderlyicecream21/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity26 = Activity.create(
@@ -876,7 +903,7 @@ activity26 = Activity.create(
 	category: "Dining",
     url: "https://www.countrycluboftroy.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity27 = Activity.create(
@@ -884,7 +911,7 @@ activity27 = Activity.create(
 	category: "Activities",
     url: "https://junefarms.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity28 = Activity.create(
@@ -892,7 +919,7 @@ activity28 = Activity.create(
 	category: "Activities",
     url: "https://www.windingcreekfarms.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity29 = Activity.create(
@@ -900,7 +927,7 @@ activity29 = Activity.create(
 	category: "Activities",
     url: "https://www.countrycluboftroy.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity30 = Activity.create(
@@ -908,7 +935,7 @@ activity30 = Activity.create(
 	category: "Activities",
     url: "http://www.hollywooddrivein.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity31 = Activity.create(
@@ -916,7 +943,7 @@ activity31 = Activity.create(
 	category: "Activities",
     url: "http://www.poestenkillfarmersmarket.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity32 = Activity.create(
@@ -924,7 +951,7 @@ activity32 = Activity.create(
 	category: "Activities",
     url: "https://www.troymarket.org/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity33 = Activity.create(
@@ -932,7 +959,7 @@ activity33 = Activity.create(
 	category: "Activities",
     url: "https://www.saratoga-springs.org/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity34 = Activity.create(
@@ -940,7 +967,7 @@ activity34 = Activity.create(
 	category: "Activities",
     url: "https://parks.ny.gov/documents/parks/CherryPlainTrailMap.pdf",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity35 = Activity.create(
@@ -948,7 +975,7 @@ activity35 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/cherryplain/maps.aspx",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity36 = Activity.create(
@@ -956,7 +983,7 @@ activity36 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/schodackisland/maps.aspx",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity37 = Activity.create(
@@ -964,7 +991,7 @@ activity37 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/peeblesisland/maps.aspx",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity38 = Activity.create(
@@ -972,7 +999,7 @@ activity38 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/128/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity39 = Activity.create(
@@ -980,7 +1007,7 @@ activity39 = Activity.create(
 	category: "Parks",
     url: "https://www.niskayuna.org/parks/pages/mohawk-river-state-park",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity40 = Activity.create(
@@ -988,7 +1015,7 @@ activity40 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/graftonlakes",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity41 = Activity.create(
@@ -996,7 +1023,7 @@ activity41 = Activity.create(
 	category: "Parks",
     url: "https://www.mass.gov/locations/pittsfield-state-forest",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity42 = Activity.create(
@@ -1004,7 +1031,7 @@ activity42 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/taconiccopake/details.aspx",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity43 = Activity.create(
@@ -1012,7 +1039,7 @@ activity43 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/saratogaspa",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity44 = Activity.create(
@@ -1020,7 +1047,7 @@ activity44 = Activity.create(
 	category: "Parks",
     url: "https://www.albanypinebush.org/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity45 = Activity.create(
@@ -1028,7 +1055,7 @@ activity45 = Activity.create(
 	category: "Parks",
     url: "https://www.albany.org/listing/albany-corning-preserve-jennings-landing/159/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity46 = Activity.create(
@@ -1036,7 +1063,7 @@ activity46 = Activity.create(
 	category: "Parks",
     url: "https://www.renstrust.org/explore/preserves/public-preserves/13-kinderhook-creek-preserve",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity47 = Activity.create(
@@ -1044,7 +1071,7 @@ activity47 = Activity.create(
 	category: "Parks",
     url: "https://www.ci.cohoes.ny.us/314/Overlook-Park-Falls-View-Park/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity48 = Activity.create(
@@ -1052,7 +1079,7 @@ activity48 = Activity.create(
 	category: "Shopping",
     url: "https://www.cumberlandfarms.com/stores/ny/sand-lake-1521",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity49 = Activity.create(
@@ -1060,7 +1087,7 @@ activity49 = Activity.create(
 	category: "Shopping",
     url: "https://www.stewartsshops.com/shop/west-sand-lake-338/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity50 = Activity.create(
@@ -1068,7 +1095,7 @@ activity50 = Activity.create(
 	category: "Shopping",
     url: "https://www.hannaford.com/locations/west-sand-lake-hannaford-20726",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity51 = Activity.create(
@@ -1076,7 +1103,7 @@ activity51 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/ShopRite.NorthGreenbush/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity52 = Activity.create(
@@ -1084,7 +1111,7 @@ activity52 = Activity.create(
 	category: "Shopping",
     url: "https://www.nywineandliquorwarehouse.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity53 = Activity.create(
@@ -1092,7 +1119,7 @@ activity53 = Activity.create(
 	category: "Shopping",
     url: "https://www.walmart.com/store/1940-east-greenbush-ny",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity54 = Activity.create(
@@ -1100,7 +1127,7 @@ activity54 = Activity.create(
 	category: "Shopping",
     url: "https://www.target.com/sl/east-greenbush/1796",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity55 = Activity.create(
@@ -1108,7 +1135,7 @@ activity55 = Activity.create(
 	category: "Shopping",
     url: "https://www.homedepot.com/l/N-Greenbush/NY/Rensselaer/12144/1263",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity56 = Activity.create(
@@ -1116,7 +1143,7 @@ activity56 = Activity.create(
 	category: "Shopping",
     url: "https://mohawkarmynavy.com/",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity57 = Activity.create(
@@ -1124,7 +1151,7 @@ activity57 = Activity.create(
 	category: "Shopping",
     url: "https://www.acehardware.com/store-details/06202",
     location: "West Sand Lake N.Y.",
-    property_id: "1"
+    property_id: 1
 )
 
 activity58 = Activity.create(
@@ -1132,7 +1159,7 @@ activity58 = Activity.create(
 	category: "Dining",
     url: "https://emmaslakeplacidcreamery.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity59 = Activity.create(
@@ -1140,7 +1167,7 @@ activity59 = Activity.create(
 	category: "Dining",
     url: "https://www.adkcornerstore.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity60 = Activity.create(
@@ -1148,7 +1175,7 @@ activity60 = Activity.create(
 	category: "Dining",
     url: "https://www.eatlakeplacid.com/location/big-mountain-deli/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity61 = Activity.create(
@@ -1156,7 +1183,7 @@ activity61 = Activity.create(
 	category: "Dining",
     url: "https://adirondackbrewing.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity62 = Activity.create(
@@ -1164,7 +1191,7 @@ activity62 = Activity.create(
 	category: "Dining",
     url: "https://www.bigslidebrewery.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity63 = Activity.create(
@@ -1172,7 +1199,7 @@ activity63 = Activity.create(
 	category: "Dining",
     url: "https://www.thebcetc.com/?fbclid=IwAR2WDJrluzjvMxBfU82_kxv-pCEwT8Whb0e5DXfYm_B8QjRkanmA-LKZlwU",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity64 = Activity.create(
@@ -1180,7 +1207,7 @@ activity64 = Activity.create(
 	category: "Dining",
     url: "https://mirrorlakeinn.com/dining/the-cottage/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity65 = Activity.create(
@@ -1188,7 +1215,7 @@ activity65 = Activity.create(
 	category: "Dining",
     url: "https://www.lisags.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity66 = Activity.create(
@@ -1196,7 +1223,7 @@ activity66 = Activity.create(
 	category: "Dining",
     url: "https://www.topofthepark.bar/small-plate-selection",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity67 = Activity.create(
@@ -1204,7 +1231,7 @@ activity67 = Activity.create(
 	category: "Dining",
     url: "https://www.saltoftheearthbistro.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity68 = Activity.create(
@@ -1212,7 +1239,7 @@ activity68 = Activity.create(
 	category: "Dining",
     url: "https://mirrorlakeinn.com/dining/the-view/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity69 = Activity.create(
@@ -1220,7 +1247,7 @@ activity69 = Activity.create(
 	category: "Dining",
     url: "https://www.facebook.com/Redneck-Bistro-BBQ-Grill-400182310087343/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity70 = Activity.create(
@@ -1228,7 +1255,7 @@ activity70 = Activity.create(
 	category: "Dining",
     url: "https://www.smokesignalsq.com/home",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity71 = Activity.create(
@@ -1236,7 +1263,7 @@ activity71 = Activity.create(
 	category: "Dining",
     url: "https://www.cafferustica.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity72 = Activity.create(
@@ -1244,7 +1271,7 @@ activity72 = Activity.create(
 	category: "Dining",
     url: "https://www.facebook.com/wyattslakeplacid",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity73 = Activity.create(
@@ -1252,7 +1279,7 @@ activity73 = Activity.create(
 	category: "Activities",
     url: "http://www.lpom.org/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity74 = Activity.create(
@@ -1260,7 +1287,7 @@ activity74 = Activity.create(
 	category: "Activities",
     url: "https://whiteface.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity75 = Activity.create(
@@ -1268,7 +1295,7 @@ activity75 = Activity.create(
 	category: "Activities",
     url: "https://highfallsgorge.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity76 = Activity.create(
@@ -1276,7 +1303,7 @@ activity76 = Activity.create(
 	category: "Activities",
     url: "https://lakeplacidlegacysites.com/legacy-sites/olympic-center/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity77 = Activity.create(
@@ -1284,7 +1311,7 @@ activity77 = Activity.create(
 	category: "Activities",
     url: "https://www.lakeplacid.com/hiking/peninsula-nature-trails",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity78 = Activity.create(
@@ -1292,7 +1319,7 @@ activity78 = Activity.create(
 	category: "Activities",
     url: "https://www.alltrails.com/trail/us/new-york/mount-jo-loop-trail",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity79 = Activity.create(
@@ -1300,7 +1327,7 @@ activity79 = Activity.create(
 	category: "Activities",
     url: "https://parks.ny.gov/historic-sites/johnbrownfarm/amenities.aspx",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity80 = Activity.create(
@@ -1308,7 +1335,7 @@ activity80 = Activity.create(
 	category: "Activities",
     url: "https://www.cinemaclock.com/theatres/palace-theatre-lake-placid",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity81 = Activity.create(
@@ -1316,7 +1343,7 @@ activity81 = Activity.create(
 	category: "Activities",
     url: "http://www.mlboatrental.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity81 = Activity.create(
@@ -1324,7 +1351,7 @@ activity81 = Activity.create(
 	category: "Activities",
     url: "https://whiteface.com/todo/whiteface-veterans-memorial-highway/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity82 = Activity.create(
@@ -1332,7 +1359,7 @@ activity82 = Activity.create(
 	category: "Activities",
     url: "https://www.lakeplacid.com/do/activities/lake-placid-boat-tours-marina",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity83 = Activity.create(
@@ -1340,7 +1367,7 @@ activity83 = Activity.create(
 	category: "Parks",
     url: "https://www.lakeplacid.com/paddling/mirror-lake",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity84 = Activity.create(
@@ -1348,7 +1375,7 @@ activity84 = Activity.create(
 	category: "Parks",
     url: "https://www.dec.ny.gov/lands/114330.html",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity85 = Activity.create(
@@ -1356,7 +1383,7 @@ activity85 = Activity.create(
 	category: "Parks",
     url: "https://www.dec.ny.gov/lands/9164.html",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity86 = Activity.create(
@@ -1364,7 +1391,7 @@ activity86 = Activity.create(
 	category: "Parks",
     url: "https://www.dec.ny.gov/lands/88875.html",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity87 = Activity.create(
@@ -1372,7 +1399,7 @@ activity87 = Activity.create(
 	category: "Parks",
     url: "https://www.dec.ny.gov/lands/105647.html",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity88 = Activity.create(
@@ -1380,7 +1407,7 @@ activity88 = Activity.create(
 	category: "Parks",
     url: "https://www.dec.ny.gov/lands/101901.html",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity89 = Activity.create(
@@ -1388,7 +1415,7 @@ activity89 = Activity.create(
 	category: "Shopping",
     url: "https://www.lockerroom5.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity90 = Activity.create(
@@ -1396,7 +1423,7 @@ activity90 = Activity.create(
 	category: "Shopping",
     url: "https://www.darrahcooper.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity91 = Activity.create(
@@ -1404,7 +1431,7 @@ activity91 = Activity.create(
 	category: "Shopping",
     url: "https://www.lakeplacid.com/do/shop/adirondack-trading-company",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity92 = Activity.create(
@@ -1412,7 +1439,7 @@ activity92 = Activity.create(
 	category: "Shopping",
     url: "http://www.adktrade.com/products.html",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity93 = Activity.create(
@@ -1420,7 +1447,7 @@ activity93 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/RuthiesRun/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity94 = Activity.create(
@@ -1428,7 +1455,7 @@ activity94 = Activity.create(
 	category: "Shopping",
     url: "https://www.highpeakscyclery.com/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity95 = Activity.create(
@@ -1436,7 +1463,7 @@ activity95 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/critterslakeplacid/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity96 = Activity.create(
@@ -1444,7 +1471,7 @@ activity96 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/BearEssentialsApparel/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity97 = Activity.create(
@@ -1452,7 +1479,7 @@ activity97 = Activity.create(
 	category: "Shopping",
     url: "https://www.lakeplacid.com/do/shop/traditions",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity98 = Activity.create(
@@ -1460,7 +1487,7 @@ activity98 = Activity.create(
 	category: "Shopping",
     url: "https://adk.org/",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity99 = Activity.create(
@@ -1468,7 +1495,7 @@ activity99 = Activity.create(
 	category: "Shopping",
     url: "https://www.lakeplacid.com/do/shop/orda-store",
     location: "Lake Placid ADK",
-    property_id: "2"
+    property_id: 2
 )
 
 activity100 = Activity.create(
@@ -1476,7 +1503,7 @@ activity100 = Activity.create(
 	category: "Dining",
     url: "https://www.rachelsfireisland.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity101 = Activity.create(
@@ -1484,7 +1511,7 @@ activity101 = Activity.create(
 	category: "Dining",
     url: "http://cjsfireisland.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity102 = Activity.create(
@@ -1492,7 +1519,7 @@ activity102 = Activity.create(
 	category: "Dining",
     url: "https://www.islandmermaid.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity103 = Activity.create(
@@ -1500,7 +1527,7 @@ activity103 = Activity.create(
 	category: "Dining",
     url: "https://www.maguiresbayfrontrestaurant.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity104 = Activity.create(
@@ -1508,7 +1535,7 @@ activity104 = Activity.create(
 	category: "Dining",
     url: "https://www.castawaybarandgrill.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity105 = Activity.create(
@@ -1516,7 +1543,7 @@ activity105 = Activity.create(
 	category: "Dining",
     url: "https://www.facebook.com/Town-Pizza-116104561751366/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity106 = Activity.create(
@@ -1524,7 +1551,7 @@ activity106 = Activity.create(
 	category: "Dining",
     url: "http://matthewsseafood.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity107 = Activity.create(
@@ -1532,7 +1559,7 @@ activity107 = Activity.create(
 	category: "Dining",
     url: "https://www.dontswingthelights.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity108 = Activity.create(
@@ -1540,7 +1567,7 @@ activity108 = Activity.create(
 	category: "Dining",
     url: "https://www.scoopsob.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity109 = Activity.create(
@@ -1548,7 +1575,7 @@ activity109 = Activity.create(
 	category: "Dining",
     url: "https://www.facebook.com/hideawayob/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity110 = Activity.create(
@@ -1556,7 +1583,7 @@ activity110 = Activity.create(
 	category: "Dining",
     url: "https://www.housershotel.com/housers-bar",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity111 = Activity.create(
@@ -1564,7 +1591,7 @@ activity111 = Activity.create(
 	category: "Dining",
     url: "http://www.flynnsfireislandny.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity112 = Activity.create(
@@ -1572,7 +1599,7 @@ activity112 = Activity.create(
 	category: "Activities",
     url: "https://villageofoceanbeach.org/new-events",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity113 = Activity.create(
@@ -1580,7 +1607,7 @@ activity113 = Activity.create(
 	category: "Activities",
     url: "https://villageofoceanbeach.org/about",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity114 = Activity.create(
@@ -1588,7 +1615,7 @@ activity114 = Activity.create(
 	category: "Activities",
     url: "https://www.usharbors.com/harbor/new-york/democrat-point-ny/tides/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity115 = Activity.create(
@@ -1596,7 +1623,7 @@ activity115 = Activity.create(
 	category: "Activities",
     url: "https://foursquare.com/v/ocean-beach-playground/4de261f418385df2b021db2e",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity116 = Activity.create(
@@ -1604,7 +1631,7 @@ activity116 = Activity.create(
 	category: "Activities",
     url: "https://www.fireislandlighthouse.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity117 = Activity.create(
@@ -1612,7 +1639,7 @@ activity117 = Activity.create(
 	category: "Activities",
     url: "https://www.oceanbeachhardware.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity118 = Activity.create(
@@ -1620,7 +1647,7 @@ activity118 = Activity.create(
 	category: "Parks",
     url: "https://www.nps.gov/fiis/index.htm",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity119 = Activity.create(
@@ -1628,7 +1655,7 @@ activity119 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/7/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity120 = Activity.create(
@@ -1636,7 +1663,7 @@ activity120 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/jonesbeach/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity121 = Activity.create(
@@ -1644,7 +1671,7 @@ activity121 = Activity.create(
 	category: "Parks",
     url: "https://parks.ny.gov/parks/captree",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity122 = Activity.create(
@@ -1652,7 +1679,7 @@ activity122 = Activity.create(
 	category: "Parks",
     url: "https://www.nps.gov/fiis/planyourvisit/sunken-forest.htm",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity123 = Activity.create(
@@ -1660,7 +1687,7 @@ activity123 = Activity.create(
 	category: "Parks",
     url: "https://www.nps.gov/fiis/planyourvisit/sailorshaven.htm",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity124 = Activity.create(
@@ -1668,7 +1695,7 @@ activity124 = Activity.create(
 	category: "Parks",
     url: "https://fireisland.com/beaches/kismet-beach-fire-island/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity125 = Activity.create(
@@ -1676,7 +1703,7 @@ activity125 = Activity.create(
 	category: "Parks",
     url: "https://www.davisparkmarina.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity126 = Activity.create(
@@ -1684,7 +1711,7 @@ activity126 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/saltystitch/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity127 = Activity.create(
@@ -1692,7 +1719,7 @@ activity127 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/Bambootique-119469964745797/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity128 = Activity.create(
@@ -1700,7 +1727,7 @@ activity128 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/KlinesFINY/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity129 = Activity.create(
@@ -1708,7 +1735,7 @@ activity129 = Activity.create(
 	category: "Shopping",
     url: "http://www.theflairhouse.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity130 = Activity.create(
@@ -1716,7 +1743,7 @@ activity130 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/hanaleiandkula/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity131 = Activity.create(
@@ -1724,7 +1751,7 @@ activity131 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/FiveEightThree/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity132 = Activity.create(
@@ -1732,7 +1759,7 @@ activity132 = Activity.create(
 	category: "Shopping",
     url: "https://www.facebook.com/Ocean-Beach-Trading-Market-130361983703854/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 activity133 = Activity.create(
@@ -1740,7 +1767,7 @@ activity133 = Activity.create(
 	category: "Shopping",
     url: "https://fireislandferries.com/",
     location: "Fire Island L.I.",
-    property_id: "3"
+    property_id: 3
 )
 
 puts "✅ Done seeding! ✅"

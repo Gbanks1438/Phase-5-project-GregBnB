@@ -69,6 +69,7 @@ ActiveRecord::Schema.define(version: 2022_02_06_185728) do
     t.string "bed_size"
     t.string "img_url"
     t.string "room_type"
+    t.string "location"
     t.bigint "property_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

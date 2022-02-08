@@ -30,6 +30,7 @@ function Navbar({setUser}) {
                 <li className='nav-links'>
                     <NavLink to='/around_town'>Around Town</NavLink>
                 </li>
+                <br />
                 <button className="Logout-button" onClick={handleLogout}>Logout</button>
             </ul>
         </nav>

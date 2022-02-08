@@ -1,4 +1,4 @@
-.home-div, .App {
+.App {
   text-align: center;
 }
 
@@ -10,10 +10,18 @@
 
 .welcome-h1 {
   text-align: center;
-  font-size: calc(12px + 2vmin);
+  font-weight: bold;
+  font-size: calc(16px + 2vmin);
   background-color: #9B9892;
   text-shadow: 2px 2px 2px white;
 }
+
+h1, h2, h3 {
+  font-weight: bold;
+  font-size: calc(16px + 2vmin);
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+} 
 
 .log-div {
   text-decoration: none;
@@ -25,26 +33,31 @@
 }
 
 .home-div{
-  background-color: lightgrey;
+  text-align: center;
+  font-weight: bold;
+  font-size: calc(6px + 2vmin);
+  background-color: #9B9892;
 }
 
 .nav-links {
   font-weight: bold;
-  font-size: calc(6px + 2vmin);
+  font-size: calc(10px + 2vmin);
   display: inline;
   margin: 6%;
 }
 
 /* unvisited link */
 a:link {
-  color: #9B9892;
+  /* color: #9B9892; */
+  color: #77d891;
   text-decoration: none;
   text-shadow: 2px 2px 2px #000000;
 }
 
 /* visited link */
 a:visited {
-  color: #9B9892;
+  /* color: #9B9892; */
+  color: #77d891;
 }
 
 /* mouse over link */
@@ -58,13 +71,20 @@ a:active {
 }
 
 .room-button, .Button {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 2vmin);
   background-color: #d4b897;
 }
 
-.cancel-button, .Logout-button, .Delete-button {
+.cancel-button, .Delete-button {
   font-size: calc(6px + 2vmin);
   background-color: #d49797;
+}
+
+.Logout-button {
+  font-size: calc(6px + 2vmin);
+  background-color: #d49797;
+  float: right;
+  margin-right: 40px;
 }
 
 .edit-button, .Update-button {
@@ -112,12 +132,6 @@ td {
   margin-left: 15%;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: calc(16px + 2vmin);
-  text-align: center;
-} 
-
 .filter {
   margin-left: 46%;
 }
@@ -128,4 +142,8 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.location-div, .whats-around-div, header {
+  background-color: #9B9892;
 }

@@ -7,6 +7,7 @@ class CreateRooms < ActiveRecord::Migration[6.1]
       t.string :bed_size
       t.string :img_url
       t.string :room_type
+      t.string :location
       t.belongs_to :property, null: false, foreign_key: true
 
       t.timestamps

@@ -12,30 +12,20 @@ function PropertyCard ({aProperty}) {
                 <thead>
                     <tr>
                         <th>Name:</th>
-                            <br />
                         <th>Address:</th>
-                            <br />
                         <th>Cell reception:</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>
-                        {
-                        aProperty.name
-                        }
+                        {aProperty.name}
                         </td>
-                            <br />
                         <td>
-                        {
-                        aProperty.address
-                        }
+                        {aProperty.address}
                         </td>
-                            <br />
                         <td>
-                        {
-                        aProperty.has_cell_reception
-                        }
+                        {aProperty.has_cell_reception}
                         </td>
                     </tr>
                 </tbody>

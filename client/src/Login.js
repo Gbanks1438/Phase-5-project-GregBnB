@@ -35,7 +35,8 @@ const Login = ({setUser}) => {
         setUser(user)
         setFormData({
           username: "",
-          password: "",
+          password: ""
+          // ,
         });
       });
   }

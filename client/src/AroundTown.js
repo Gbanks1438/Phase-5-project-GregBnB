@@ -39,9 +39,7 @@ function AroundTown () {
         <thead>
             <tr>
                 <th key={activity.id}>Name:</th>
-                    <br />
                 <th key={activity.id}>Category:</th>
-                    <br />
                 <th key={activity.id}>Location:</th>
             </tr>
         </thead>
@@ -50,11 +48,9 @@ function AroundTown () {
                 <td>
                 {activity.name}
                 </td>
-                <br />
                 <td>
                 {activity.category}
                 </td>
-                <br />
                 <td>
                 {activity.location}
                 </td>
@@ -67,7 +63,7 @@ function AroundTown () {
       ));
     
       return (
-        <div>
+        <div className='whats-around-div'>
             <h1>What's Around?</h1>
           <select name="filter" onChange={handleFilterChange} className='filter'>
             <option value="All">All</option>
@@ -82,37 +78,6 @@ function AroundTown () {
           </div>
         </div>
       );
-
-    // return (
-    //     <div className="activity-div-background">
-    //         <br />
-    //         <h1>What's Around?</h1>
-    //         <div className="activity-div">
-    //         {activitiesArray.map((anActivity)=>{
-
-    //             return (
-    //                 <div className="list-div">
-    //                     <ul>
-    //                         <li>
-    //                             Name: {anActivity.name}
-    //                         </li>
-    //                         <li>
-    //                             Category: {anActivity.category}
-    //                         </li>
-    //                         <li>
-    //                             Location: {anActivity.location} 
-    //                         </li>
-    //                         <li>
-    //                             <a href={anActivity.url}>Website</a>
-    //                         </li>
-    //                     </ul>
-    //                 </div>
-    //             )
-    //         })}
-    //     </div>
-    //     </div>
-    // );
-
   };
   
   export default AroundTown;
