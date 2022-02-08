@@ -37,7 +37,6 @@ function Home () {
         <Link to="/rooms" replace>
         <button className='room-button'>View Our Rooms</button>
         </Link>
-        <br /> 
         </div>
     )
   };

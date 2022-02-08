@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import {Link} from 'react-router-dom';
 
 function RoomCard () {
 
@@ -89,6 +90,10 @@ return (
       <div className="list-div">  
       {roomList}
       </div>
+      <br />
+        <Link to="/reservations" replace>
+        <button className='rez-button'>Book Today!</button>
+        </Link>
     </div>
   );
 }

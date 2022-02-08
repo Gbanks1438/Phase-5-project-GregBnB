@@ -1,3 +1,7 @@
+html {
+  background-color: #9B9892;
+}
+
 .App {
   text-align: center;
 }
@@ -12,8 +16,8 @@
   text-align: center;
   font-weight: bold;
   font-size: calc(16px + 2vmin);
-  background-color: #9B9892;
-  text-shadow: 2px 2px 2px white;
+  background-color: #d4b897;
+  text-shadow: 2px 2px 2px lightgrey;
 }
 
 h1, h2, h3 {
@@ -41,23 +45,22 @@ h1, h2, h3 {
 
 .nav-links {
   font-weight: bold;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(16px + 2vmin);
   display: inline;
-  margin: 6%;
+  margin: 5%;
 }
 
 /* unvisited link */
 a:link {
-  /* color: #9B9892; */
-  color: #77d891;
+  color: #3366BB;
   text-decoration: none;
-  text-shadow: 2px 2px 2px #000000;
+  /* text-shadow: ; */
+  text-shadow: 3px 3px 3px #000000;
 }
 
 /* visited link */
 a:visited {
-  /* color: #9B9892; */
-  color: #77d891;
+  color: #3366BB;
 }
 
 /* mouse over link */
@@ -73,6 +76,12 @@ a:active {
 .room-button, .Button {
   font-size: calc(12px + 2vmin);
   background-color: #d4b897;
+}
+
+.rez-button {
+  font-size: calc(12px + 2vmin);
+  background-color: #d4b897;
+  margin-left: 45%;
 }
 
 .cancel-button, .Delete-button {
@@ -113,8 +122,8 @@ th {
 td {
   border: 1px solid black;
   padding: 10px;
-  color: #77d891;
-  text-shadow: 2px 2px 2px #000000;
+  color: black;
+  text-shadow: 2px 2px 2px #3366BB;
   font-weight: bold;
   text-align: center;
 }

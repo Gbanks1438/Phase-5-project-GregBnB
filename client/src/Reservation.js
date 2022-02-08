@@ -107,13 +107,6 @@ function Reservation () {
           <option value={formData.property_id = 2}>Adirondack Mountain Lodge - Lake Placid, NY</option>
           <option value={formData.property_id = 3}>Fire Island Beach House - Ocean Beach LI, NY</option>
         </select>
-        {/* <input
-          id="property-booking-input"
-          type="text"
-          name="property_id"
-          value={formData.property_id}
-          onChange={handleChange}
-        /> */}
         <br />
         <br />
         <button type="submit" className="Button">Book Now!</button>
