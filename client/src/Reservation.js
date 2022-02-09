@@ -28,7 +28,7 @@ function Reservation () {
       });
 
       const handleChange = (e) => {
-        console.log("handleChange?")
+        // console.log("handleChange?")
         setFormData({
           ...formData,
           [e.target.name]: e.target.value,
@@ -36,7 +36,7 @@ function Reservation () {
       };
     
       function handleSubmit(e) {
-        e.preventDefault();
+        e.preventDefault(e);
     
         const reservation = { ...formData };
         
@@ -49,7 +49,7 @@ function Reservation () {
         })
           .then((r) => r.json())
           .then((user) => {
-            console.log(user);
+            // console.log(user);
             setFormData({
                 num_guests: "",
                 start_date: "",
@@ -66,13 +66,27 @@ function Reservation () {
              <h2>Reservation Form</h2>
       <form onSubmit={handleSubmit}>
       <label htmlFor="guests">Number Of Guests:</label>
-        <input
+      <input
           id="guests-booking-input"
           type="number"
           name="num_guests"
           value={formData.num_guests}
           onChange={handleChange}
         />
+      {/* <select id="num_guests-booking-input" name="num_guests" onChange={handleChange}>
+          <option value={formData.num_guests = 1}>1</option>
+          <option value={formData.num_guests = 2}>2</option>
+          <option value={formData.num_guests = 3}>3</option>
+          <option value={formData.num_guests = 4}>4</option>
+          <option value={formData.num_guests = 5}>5</option>
+          <option value={formData.num_guests = 6}>6</option>
+          <option value={formData.num_guests = 7}>7</option>
+          <option value={formData.num_guests = 8}>8</option>
+          <option value={formData.num_guests = 9}>9</option>
+          <option value={formData.num_guests = 10}>10</option>
+          <option value={formData.num_guests = 11}>11</option>
+          <option value={formData.num_guests = 12}>12</option>
+        </select> */}
         <br />
         <label htmlFor="start_date">From:</label>
         <input
@@ -102,11 +116,18 @@ function Reservation () {
         />
         <br />
         <label htmlFor="property_id">Location:</label>
-        <select id="property-booking-input" name="property_id" onChange={handleChange}>
+        <input
+          id="property-booking-input"
+          type="number"
+          name="property_id"
+          value={formData.property_id}
+          onChange={handleChange}
+        />
+        {/* <select id="property-booking-input" name="property_id" onChange={handleChange}>
           <option value={formData.property_id = 1}>Lake House - Big Bowman Pond, NY</option>
           <option value={formData.property_id = 2}>Adirondack Mountain Lodge - Lake Placid, NY</option>
           <option value={formData.property_id = 3}>Fire Island Beach House - Ocean Beach LI, NY</option>
-        </select>
+        </select> */}
         <br />
         <br />
         <button type="submit" className="Button">Book Now!</button>

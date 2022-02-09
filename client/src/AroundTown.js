@@ -57,7 +57,7 @@ function AroundTown () {
             </tr>
         </tbody>
         </table>
-        <a key={activity.id} href={activity.url}>Website</a>
+        <a href={activity.url}>Website</a>
         <hr />
         </div>
       ));
@@ -78,6 +78,6 @@ function AroundTown () {
           </div>
         </div>
       );
-  };
+  }
   
   export default AroundTown;

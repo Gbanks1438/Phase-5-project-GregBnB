@@ -16,7 +16,7 @@ html {
   text-align: center;
   font-weight: bold;
   font-size: calc(16px + 2vmin);
-  background-color: #d4b897;
+  background-color: #abc7b2;
   text-shadow: 2px 2px 2px lightgrey;
 }
 
@@ -54,7 +54,6 @@ h1, h2, h3 {
 a:link {
   color: #3366BB;
   text-decoration: none;
-  /* text-shadow: ; */
   text-shadow: 3px 3px 3px #000000;
 }
 
@@ -65,7 +64,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #d4b897;
+  color: #abc7b2;
 }
 
 /* selected link */
@@ -75,18 +74,25 @@ a:active {
 
 .room-button, .Button {
   font-size: calc(12px + 2vmin);
-  background-color: #d4b897;
+  background-color: #abc7b2;
 }
 
 .rez-button {
   font-size: calc(12px + 2vmin);
-  background-color: #d4b897;
+  background-color: #abc7b2;
   margin-left: 45%;
 }
 
-.cancel-button, .Delete-button {
+.Delete-button {
   font-size: calc(6px + 2vmin);
   background-color: #d49797;
+}
+
+.cancel-button {
+  font-size: calc(6px + 2vmin);
+  background-color: #d49797;
+  float: right;
+  margin-right: 41%;
 }
 
 .Logout-button {
@@ -96,14 +102,21 @@ a:active {
   margin-right: 40px;
 }
 
-.edit-button, .Update-button {
+.Update-button {
   font-size: calc(6px + 2vmin);
   background-color: #abc7b2;
 }
 
+.edit-button {
+  font-size: calc(6px + 2vmin);
+  background-color: #abc7b2;
+  float: left;
+  margin-left: 41%;
+}
+
 .room-button {
   font-size: calc(14px + 2vmin);
-  background-color: #d4b897;
+  background-color: #abc7b2;
 }
 
 table {
@@ -117,15 +130,18 @@ table {
 th {
   border: 1px solid black;
   padding: 10px;
+  background-color: #abc7b2;
 }
 
 td {
   border: 1px solid black;
   padding: 10px;
   color: black;
-  text-shadow: 2px 2px 2px #3366BB;
+  text-shadow: 2px 2px 1px #9B9892;
   font-weight: bold;
   text-align: center;
+  background-color: #abc7b2;
+  font-size: calc(10px + 2vmin);
 }
 
 .hr {
@@ -142,7 +158,13 @@ td {
 }
 
 .filter {
-  margin-left: 46%;
+  margin-left: 43%;
+  font-size: calc(6px + 2vmin);
+  text-align: center;
+}
+
+select, input {
+  font-size: calc(6px + 2vmin);
 }
 
 .Image {
@@ -156,3 +178,7 @@ td {
 .location-div, .whats-around-div, header {
   background-color: #9B9892;
 }
+
+/* .edit-rez-div {
+  display: none;
+} */

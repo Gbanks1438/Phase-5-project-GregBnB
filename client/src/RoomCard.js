@@ -72,6 +72,7 @@ function RoomCard () {
             </tbody>
         </table>
             <hr />
+            <br />
     </div>
       ))
 
