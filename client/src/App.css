@@ -64,7 +64,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #abc7b2;
+  color: #abbcc7;
 }
 
 /* selected link */
@@ -92,7 +92,7 @@ a:active {
   font-size: calc(6px + 2vmin);
   background-color: #d49797;
   float: right;
-  margin-right: 41%;
+  margin-right: 8%;
 }
 
 .Logout-button {
@@ -130,7 +130,7 @@ table {
 th {
   border: 1px solid black;
   padding: 10px;
-  background-color: #abc7b2;
+  background-color: #abbcc7;
 }
 
 td {
@@ -140,7 +140,7 @@ td {
   text-shadow: 2px 2px 1px #9B9892;
   font-weight: bold;
   text-align: center;
-  background-color: #abc7b2;
+  background-color: #abbcc7;
   font-size: calc(10px + 2vmin);
 }
 
@@ -175,8 +175,13 @@ select, input {
   margin-right: auto;
 }
 
-.location-div, .whats-around-div, header {
+.location-div, .whats-around-div {
   background-color: #9B9892;
+}
+
+header {
+  background-color: #9B9892;
+  max-height: 75px;
 }
 
 /* .edit-rez-div {

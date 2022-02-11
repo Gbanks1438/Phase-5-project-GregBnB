@@ -19,12 +19,15 @@ function App() {
       } else {
         setAuthenticated(true);
       }
+      // console.log("Does it exist? ", user) // YES
     });
   }, []);
   
   if (!authenticated) {
     return (<div>
-      REFRESH THE PAGE!
+      <LoggedOut 
+      // setUser={setUser} 
+          />
       </div>)
   }
 

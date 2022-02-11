@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function ReservationCard({ aReservation }) {
+function ReservationCard({ aReservation}) {
 
     const handleDelete = () => {
         fetch(`/reservations/${aReservation.id}`, {
@@ -42,7 +42,7 @@ function ReservationCard({ aReservation }) {
             .then((r) => r.json())
             .then((reservation) => {
                 setFormData({
-                    id: "",
+                    // id: "",
                     num_guests: "",
                     start_date: "",
                     end_date: "",
@@ -52,19 +52,7 @@ function ReservationCard({ aReservation }) {
             });
     }
 
-    function handleEditToggle() {
-    
-        const editForm = document.getElementById("edit-rez-div");
-    
-        const displaySetting = editForm.style.display;
-   
-        if (displaySetting === 'none') {
-          editForm.style.display = 'block';
-        }
-        else {
-          editForm.style.display = 'none';
-        }
-      }
+    const [toggle, setToggle] = useState(false)
 
     return (
         <div className="rez-card-div">
@@ -98,102 +86,108 @@ function ReservationCard({ aReservation }) {
                     </tr>
                 </tbody>
             </table>
-            {/* <button
-                onClick={handleEditToggle} id="rez-edit-button" className="edit-button">Edit
-            </button> */}
+   
             <button
                 onClick={handleDelete}
                 className="cancel-button">
                 Cancel
             </button>
-             <br />
-            <div className="edit-rez-div">
-                <br />
-                <h2>Edit Reservation Form</h2>
-                <form onSubmit={handleSubmit} className="edit-rez-form">
-                    {/* <label htmlFor="reservation-id">Reservation ID:</label>
-                    <input
-                        id="reservation-id-input"
-                        type="number"
-                        name="id"
-                        value={formData.id}
-                        onChange={handleChange}
-                    />
-                    <br /> */}
-                    <label htmlFor="guests">Number Of Guests:</label>
-                    <input
-          id="guests-booking-input"
-          type="number"
-          name="num_guests"
-          value={formData.num_guests}
-          onChange={handleChange}
-        />
-      {/* <select id="property-booking-input" name="property_id" onChange={handleChange}>
-          <option value={formData.num_guests = 1}>1</option>
-          <option value={formData.num_guests = 2}>2</option>
-          <option value={formData.num_guests = 3}>3</option>
-          <option value={formData.num_guests = 4}>4</option>
-          <option value={formData.num_guests = 5}>5</option>
-          <option value={formData.num_guests = 6}>6</option>
-          <option value={formData.num_guests = 7}>7</option>
-          <option value={formData.num_guests = 8}>8</option>
-          <option value={formData.num_guests = 9}>9</option>
-          <option value={formData.num_guests = 10}>10</option>
-          <option value={formData.num_guests = 11}>11</option>
-          <option value={formData.num_guests = 12}>12</option>
-        </select> */}
+            <br />
+
+            {/* <button id="rez-edit-button" className="edit-button" onClick={() => console.log("Edit Rez Button Clicked!")}>Edit Reservation</button> */}
+
+            <button onClick={() => setToggle(!toggle)}>Plans changed?</button>
+      {toggle && (
+                  <div>
+    <div className="edit-rez-div">
         <br />
-                    <label htmlFor="start_date">From:</label>
-                    <input
-                        id="start_date-booking-input"
-                        type="datetime-local"
-                        name="start_date"
-                        value={formData.start_date}
-                        onChange={handleChange}
-                    />
-                    <br />
-                    <label htmlFor="end_date">Until:</label>
-                    <input
-                        id="end_date-booking-input"
-                        type="datetime-local"
-                        name="end_date"
-                        value={formData.end_date}
-                        onChange={handleChange}
-                    />
-                    <br />
-                    <label htmlFor="user_alias">Your ID:</label>
-                    <input
-                        id="user_alias-booking-input"
-                        type="number"
-                        name="user_id"
-                        value={formData.user_id}
-                        onChange={handleChange}
-                    />
-                    <br />
-                    <label htmlFor="property_id">Location:</label>
-                    <input
-          id="property-booking-input"
-          type="number"
-          name="property_id"
-          value={formData.property_id}
-          onChange={handleChange}
-        />
-        {/* <select id="property-booking-input" name="property_id" onChange={handleChange}>
-          <option value={formData.property_id = 1}>Lake House - Big Bowman Pond, NY</option>
-          <option value={formData.property_id = 2}>Adirondack Mountain Lodge - Lake Placid, NY</option>
-          <option value={formData.property_id = 3}>Fire Island Beach House - Ocean Beach LI, NY</option>
-        </select> */}
-                    <br />
-                    <br />
-                    <button type="submit" className="Button">Submit Changes</button>
-                </form>
-                <br />
-            </div>
+        <h2>Edit Reservation Form</h2>
+        <form onSubmit={handleSubmit} className="edit-rez-form">
+            {/* <label htmlFor="reservation-id">Reservation ID:</label>
+             <input
+                 id="reservation-id-input"
+                 type="number"
+                 name="id"
+                 value={formData.id}
+                 onChange={handleChange}
+             /> */}
+             <br />
+            <label htmlFor="guests">Number Of Guests:</label>
+            <input
+                id="guests-booking-input"
+                type="number"
+                name="num_guests"
+                value={formData.num_guests}
+                onChange={handleChange}
+            />
+            {/* <select id="property-booking-input" name="property_id" onChange={handleChange}>
+   <option value={formData.num_guests = 1}>1</option>
+   <option value={formData.num_guests = 2}>2</option>
+   <option value={formData.num_guests = 3}>3</option>
+   <option value={formData.num_guests = 4}>4</option>
+   <option value={formData.num_guests = 5}>5</option>
+   <option value={formData.num_guests = 6}>6</option>
+   <option value={formData.num_guests = 7}>7</option>
+   <option value={formData.num_guests = 8}>8</option>
+   <option value={formData.num_guests = 9}>9</option>
+   <option value={formData.num_guests = 10}>10</option>
+   <option value={formData.num_guests = 11}>11</option>
+   <option value={formData.num_guests = 12}>12</option>
+ </select> */}
+           <br />
+            <label htmlFor="start_date">From:</label>
+            <input
+                id="start_date-booking-input"
+                type="datetime-local"
+                name="start_date"
+                value={formData.start_date}
+                onChange={handleChange}
+            />
+            <br />
+            <label htmlFor="end_date">Until:</label>
+            <input
+                id="end_date-booking-input"
+                type="datetime-local"
+                name="end_date"
+                value={formData.end_date}
+                onChange={handleChange}
+            />
+            <br />
+            <label htmlFor="user_alias">Your ID:</label>
+            <input
+                id="user_alias-booking-input"
+                type="number"
+                name="user_id"
+                value={formData.user_id}
+                onChange={handleChange}
+            />
+            <br />
+            <label htmlFor="property_id">Location:</label>
+            <input
+                id="property-booking-input"
+                type="number"
+                name="property_id"
+                value={formData.property_id}
+                onChange={handleChange}
+            />
+           {/* <select id="property-booking-input" name="property_id" onChange={handleChange}>
+   <option value={formData.property_id = 1}>Lake House - Big Bowman Pond, NY</option>
+   <option value={formData.property_id = 2}>Adirondack Mountain Lodge - Lake Placid, NY</option>
+   <option value={formData.property_id = 3}>Fire Island Beach House - Ocean Beach LI, NY</option>
+ </select> */}
+            <br />
+            <br />
+            <button type="submit" className="Button">Submit Changes</button>
+        </form>
+        <hr />
+        <br />
+    </div>
+
+    </div>
+            )}
+
         </div>
-    );
-};
+    )
+}
 
 export default ReservationCard;
-
-
-  // onClick={() => {console.log("Edit button pressed! ", aReservation.id)}} id="rez-edit-button" className="edit-button">Edit

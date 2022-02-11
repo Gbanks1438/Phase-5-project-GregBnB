@@ -7,7 +7,9 @@ const LoggedIn = ({ user, setUser }) => {
     <div>
       <h1 className="welcome-h1">Welcome, {user.username}!</h1>
       <Navbar setUser={setUser}/>
-      <Routing setUser={setUser}/>
+      <Routing 
+      setUser={setUser}
+      />
     </div>
   );
 };

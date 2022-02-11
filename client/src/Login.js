@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from './Images/welcome-mat.png';
 
 const Login = ({setUser}) => {
-  console.log("What is this?" , setUser) 
+  // console.log("What is this?" , setUser) 
 
   const [formData, setFormData] = useState({
     username: "",
@@ -32,7 +32,7 @@ const Login = ({setUser}) => {
     })
       .then((r) => r.json())
       .then((user) => {
-        console.log(user);
+        // console.log(user);
         setUser(user)
         setFormData({
           username: "",

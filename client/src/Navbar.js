@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-function Navbar({setUser}) {
+function Navbar({setUser, user}) {
 
     const handleLogout = () => {
         fetch("/logout", {
