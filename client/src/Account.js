@@ -62,7 +62,7 @@ function Account({setUser}) {
                >
       <label>Username:</label>
       <input
-          id="username-signup-input"
+          id="account-input"
           type="text"
           name="username"
           value={formData.username}
@@ -71,7 +71,7 @@ function Account({setUser}) {
       <br/>
       <label>New Password:</label>
         <input
-          id="password-signup-input"
+          id="account-input"
           type="password"
           name="password"
           value={formData.password}
@@ -80,7 +80,7 @@ function Account({setUser}) {
       <br/>
        <label>Confirm New Password:</label>
        <input
-          id="password-confirmation-signup-input"
+          id="account-input"
           type="password_confirmation"
           name="password_confirmation"
           value={formData.password_confirmation}
@@ -89,7 +89,7 @@ function Account({setUser}) {
         <br />
         <label htmlFor="first_name">First Name:</label>
         <input
-          id="first_name-signup-input"
+          id="account-input"
           type="text"
           name="first_name"
           value={formData.first_name}
@@ -98,7 +98,7 @@ function Account({setUser}) {
         <br />
         <label htmlFor="last_name">Last Name:</label>
         <input
-          id="last_name-signup-input"
+          id="account-input"
           type="text"
           name="last_name"
           value={formData.last_name}
@@ -107,7 +107,7 @@ function Account({setUser}) {
         <br />
         <label htmlFor="email">Email Address:</label>
         <input
-          id="email-signup-input"
+          id="account-input"
           type="text"
           name="email"
           value={formData.email}

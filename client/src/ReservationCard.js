@@ -92,11 +92,9 @@ function ReservationCard({ aReservation}) {
                 className="cancel-button">
                 Cancel
             </button>
+
+            <button className="plans-button" onClick={() => setToggle(!toggle)}>Plans changed?</button>
             <br />
-
-            {/* <button id="rez-edit-button" className="edit-button" onClick={() => console.log("Edit Rez Button Clicked!")}>Edit Reservation</button> */}
-
-            <button onClick={() => setToggle(!toggle)}>Plans changed?</button>
       {toggle && (
                   <div>
     <div className="edit-rez-div">
@@ -114,7 +112,7 @@ function ReservationCard({ aReservation}) {
              <br />
             <label htmlFor="guests">Number Of Guests:</label>
             <input
-                id="guests-booking-input"
+                id="edit-booking-input"
                 type="number"
                 name="num_guests"
                 value={formData.num_guests}
@@ -137,7 +135,7 @@ function ReservationCard({ aReservation}) {
            <br />
             <label htmlFor="start_date">From:</label>
             <input
-                id="start_date-booking-input"
+                id="edit-booking-input"
                 type="datetime-local"
                 name="start_date"
                 value={formData.start_date}
@@ -146,7 +144,7 @@ function ReservationCard({ aReservation}) {
             <br />
             <label htmlFor="end_date">Until:</label>
             <input
-                id="end_date-booking-input"
+                id="edit-booking-input"
                 type="datetime-local"
                 name="end_date"
                 value={formData.end_date}
@@ -155,7 +153,7 @@ function ReservationCard({ aReservation}) {
             <br />
             <label htmlFor="user_alias">Your ID:</label>
             <input
-                id="user_alias-booking-input"
+                id="edit-booking-input"
                 type="number"
                 name="user_id"
                 value={formData.user_id}
@@ -164,7 +162,7 @@ function ReservationCard({ aReservation}) {
             <br />
             <label htmlFor="property_id">Location:</label>
             <input
-                id="property-booking-input"
+                id="edit-booking-input"
                 type="number"
                 name="property_id"
                 value={formData.property_id}

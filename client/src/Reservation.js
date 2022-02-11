@@ -65,14 +65,15 @@ function Reservation ({user}) {
     return (
         <div className="rez-div">
             <br />
-            <button onClick={() => setToggle(!toggle)}>Book Today!</button>
+            <button className="Button" onClick={() => setToggle(!toggle)}>Book Today! 💼 👜 🧳</button>
+            <br />
       {toggle && (
                   <div>
                   <h2>Reservation Form</h2>
            <form onSubmit={handleSubmit}>
            <label htmlFor="guests">Number Of Guests:</label>
            <input
-               id="guests-booking-input"
+               id="booking-input"
                type="number"
                name="num_guests"
                value={formData.num_guests}
@@ -81,7 +82,7 @@ function Reservation ({user}) {
              <br />
              <label htmlFor="start_date">From:</label>
              <input
-               id="start_date-booking-input"
+               id="booking-input"
                type="datetime-local"
                name="start_date"
                value={formData.start_date}
@@ -90,7 +91,7 @@ function Reservation ({user}) {
              <br />
              <label htmlFor="end_date">Until:</label>
              <input
-               id="end_date-booking-input"
+               id="booking-input"
                type="datetime-local"
                name="end_date"
                value={formData.end_date}
@@ -99,7 +100,7 @@ function Reservation ({user}) {
              <br />
              <label htmlFor="user_alias">Your ID:</label>
              <input
-               id="user_alias-booking-input"
+               id="booking-input"
                type="number"
                name="user_id"
                value={formData.user_id}
@@ -108,7 +109,7 @@ function Reservation ({user}) {
              <br />
              <label htmlFor="property_id">Location:</label>
              <input
-               id="property-booking-input"
+               id="booking-input"
                type="number"
                name="property_id"
                value={formData.property_id}

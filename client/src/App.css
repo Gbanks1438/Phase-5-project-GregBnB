@@ -92,7 +92,7 @@ a:active {
   font-size: calc(6px + 2vmin);
   background-color: #d49797;
   float: right;
-  margin-right: 8%;
+  margin-right: 18%;
 }
 
 .Logout-button {
@@ -117,6 +117,13 @@ a:active {
 .room-button {
   font-size: calc(14px + 2vmin);
   background-color: #abc7b2;
+}
+
+.plans-button {
+  font-size: calc(6px + 2vmin);
+  background-color: #d4cb97;
+  float: left;
+  margin-left: 15%;
 }
 
 table {
@@ -161,6 +168,7 @@ td {
   margin-left: 43%;
   font-size: calc(6px + 2vmin);
   text-align: center;
+  background: lightgrey;
 }
 
 select, input {
@@ -184,6 +192,6 @@ header {
   max-height: 75px;
 }
 
-/* .edit-rez-div {
-  display: none;
-} */
+#booking-input, #edit-booking-input, #account-input {
+  background-color:lightgrey;
+}
