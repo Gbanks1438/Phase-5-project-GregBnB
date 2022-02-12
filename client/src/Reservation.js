@@ -1,5 +1,6 @@
 import ReservationCard from "./ReservationCard";
 import { useState, useEffect } from 'react';
+import {Link} from 'react-router-dom';
 
 function Reservation ({user}) {
   console.log("Does it exist? ", user)
@@ -65,7 +66,7 @@ function Reservation ({user}) {
     return (
         <div className="rez-div">
             <br />
-            <button className="Button" onClick={() => setToggle(!toggle)}>Book Today! 💼 👜 🧳</button>
+            <button className="rez-button" onClick={() => setToggle(!toggle)}>📖 🛄 ➡️ Reservations 💼 👜 🧳</button>
             <br />
       {toggle && (
                   <div>
@@ -134,6 +135,10 @@ function Reservation ({user}) {
                 )
             })}
                 <br />
+                <br />
+    <Link to="/reviews" replace>
+    <button className="log-button">View Guest Log</button>
+    </Link>
         </div>
     );
   };

@@ -36,7 +36,7 @@ h1, h2, h3 {
   padding: 10px;
 }
 
-.home-div{
+.home-div, .review-form {
   text-align: center;
   font-weight: bold;
   font-size: calc(6px + 2vmin);
@@ -47,7 +47,7 @@ h1, h2, h3 {
   font-weight: bold;
   font-size: calc(16px + 2vmin);
   display: inline;
-  margin: 5%;
+  margin: 3%;
 }
 
 /* unvisited link */
@@ -72,20 +72,14 @@ a:active {
   color: #77d891;
 }
 
-.room-button, .Button {
+.rez-button, .Button {
   font-size: calc(12px + 2vmin);
-  background-color: #abc7b2;
-}
-
-.rez-button {
-  font-size: calc(12px + 2vmin);
-  background-color: #abc7b2;
-  margin-left: 45%;
+  background-color: #77d891;
 }
 
 .Delete-button {
   font-size: calc(6px + 2vmin);
-  background-color: #d49797;
+  background-color: #f13737;
 }
 
 .cancel-button {
@@ -99,12 +93,13 @@ a:active {
   font-size: calc(6px + 2vmin);
   background-color: #d49797;
   float: right;
-  margin-right: 40px;
+  margin-right: 70px;
+  margin-top: 10px;
 }
 
 .Update-button {
   font-size: calc(6px + 2vmin);
-  background-color: #abc7b2;
+  background-color: #77d891;
 }
 
 .edit-button {
@@ -114,9 +109,15 @@ a:active {
   margin-left: 41%;
 }
 
-.room-button {
+.room-button, .submit-thoughts-button {
   font-size: calc(14px + 2vmin);
   background-color: #abc7b2;
+}
+
+.booking-button {
+  font-size: calc(14px + 2vmin);
+  background-color: #abc7b2;
+  margin-left: 44%;
 }
 
 .plans-button {
@@ -192,6 +193,24 @@ header {
   max-height: 75px;
 }
 
-#booking-input, #edit-booking-input, #account-input {
+#booking-input, #edit-booking-input, #account-input, #review-input {
   background-color:lightgrey;
+}
+
+#review-text-input {
+  background-color:lightgrey;
+  /* min-height: 200px; */
+  min-width: 1200px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+.log-button {
+  background-color: #9B9892;
+  font-size: calc(8px + 3vmin);
+  border-style: double;
+  border-color: #3366BB;
+  border-width: 4px;
 }

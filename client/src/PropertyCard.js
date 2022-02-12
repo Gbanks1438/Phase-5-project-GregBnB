@@ -1,13 +1,11 @@
-// import {Link} from 'react-router-dom';
 function PropertyCard ({aProperty}) {
     
     return (
         <div className="Card-div">
-        {/* <Link to="/rooms" replace> */}
             <img src={
                 aProperty.img_url
             } className="Image" alt="Property Listing" />
-        {/* </Link> */}
+            <br />
             <table>
                 <thead>
                     <tr>

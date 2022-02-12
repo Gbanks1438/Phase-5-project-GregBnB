@@ -93,7 +93,7 @@ return (
       </div>
       <br />
         <Link to="/reservations" replace>
-        <button className='rez-button'>Book Today!</button>
+        <button className='booking-button'>Book Today!</button>
         </Link>
     </div>
   );

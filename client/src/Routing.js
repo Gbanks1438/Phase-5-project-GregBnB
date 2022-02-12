@@ -4,6 +4,7 @@ import Account from './Account.js';
 import Home from './Home.js';
 import { Routes, Route } from "react-router-dom";
 import RoomCard from './RoomCard.js';
+import ReviewForm from './ReviewForm.js';
 
 const Routing = ({setUser}) => {
   return (
@@ -19,6 +20,8 @@ const Routing = ({setUser}) => {
     <Route path='/reservations' element={<Reservation />} />
 
     <Route path='/around_town' element={<AroundTown />} />
+
+    <Route path='/reviews' element={<ReviewForm />} />
     
   </Routes>
   </div>

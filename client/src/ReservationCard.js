@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function ReservationCard({ aReservation}) {
+function ReservationCard({aReservation}) {
 
     const handleDelete = () => {
         fetch(`/reservations/${aReservation.id}`, {
