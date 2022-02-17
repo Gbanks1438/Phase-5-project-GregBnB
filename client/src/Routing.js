@@ -17,11 +17,11 @@ const Routing = ({setUser}) => {
 
     <Route path='/rooms' element={<RoomCard />} />
 
-    <Route path='/reservations' element={<Reservation />} />
+    <Route path='/reservations' element={<Reservation setUser={setUser}/>} />
 
     <Route path='/around_town' element={<AroundTown />} />
 
-    <Route path='/reviews' element={<ReviewForm />} />
+    <Route path='/reviews' element={<ReviewForm setUser={setUser}/>} />
     
   </Routes>
   </div>

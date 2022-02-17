@@ -1,10 +1,17 @@
+import { useState } from 'react';
+
 function PropertyCard ({aProperty}) {
-    
+
+    const [like, setLike] = useState(false)
+
     return (
         <div className="Card-div">
             <img src={
                 aProperty.img_url
             } className="Image" alt="Property Listing" />
+            <h2 onClick={() => setLike((prevState) => !prevState)}>
+            Enjoy Your Stay? {like ? "💖" : "♡"}
+            </h2>
             <br />
             <table>
                 <thead>

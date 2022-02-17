@@ -8,7 +8,6 @@ const Login = ({setUser}) => {
   const [formData, setFormData] = useState({
     username: "",
     password: ""
-    // ,
   });
 
   const handleChange = (e) => {

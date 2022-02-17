@@ -6,13 +6,14 @@ import Signup from "./Signup";
 const LoggedOut = ({setUser}) => {
 
   useEffect(() => {
-    <Navigate to="/login" />
-
+    // <Navigate to="/login" />
+    <Navigate to="/" />
   }, [])
   
   return (
     <div>
       <Routes>
+        {/* <Route exact path="/login" element={<Login setUser={setUser}/>} /> */}
         <Route exact path="/" element={<Login setUser={setUser}/>} />
         <Route exact path="/signup" element={<Signup />} />
       </Routes>

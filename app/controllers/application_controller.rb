@@ -6,6 +6,7 @@ class ApplicationController < ActionController::API
   private
 
   def authenticate_user 
+    # byebug
     render json: {error: "Not authorized"}, status: :unauthorized unless current_user 
   end
 

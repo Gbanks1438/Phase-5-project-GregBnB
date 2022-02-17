@@ -26,7 +26,7 @@ function App() {
   if (!authenticated) {
     return (<div>
       <LoggedOut 
-      // setUser={setUser} 
+      setUser={setUser} 
           />
       </div>)
   }

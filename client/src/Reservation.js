@@ -2,8 +2,10 @@ import ReservationCard from "./ReservationCard";
 import { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 
-function Reservation ({user}) {
-  console.log("Does it exist? ", user)
+function Reservation ({setUser}) {
+    console.log("Did we get {setUser}?" , setUser)
+
+
     const [reservationsArray, setReservation] = useState( [] )
 
     useEffect( 

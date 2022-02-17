@@ -2,7 +2,7 @@ class User < ApplicationRecord
     has_many :reservations, dependent: :delete_all
     has_many :properties, through: :reservations
     has_many :reviews, dependent: :delete_all
-    has_many :properties, through: :reviews
+    has_many :reviewed_properties, through: :reviews, source: :property
 
     has_secure_password
 
