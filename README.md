@@ -1,3 +1,11 @@
+ABOUT: 
+This app was a second exploration for making an Airbnb style of app. This app iteration added authentication and authorization utilizing the Bcrypt Gem. With this SPA, users can schedule a vacation at one of three fictional properties. I hosted an API with the data for my rooms, amenities, activities, and local businesses and fetched it from the front end to display on the page.
+
+The project was built as a Monorepo and comes with all the code needed to host it on Heroku, although currently it is not being made available online. I used Javascript React V6 for the frontend to create interactivity, I used HTML formatting, and vanilla CSS for styling. My Backend uses Ruby on Rails and I used Postgresql to interact with my database. ActiveModel serializers were used to quickly put together my app structure and I tested using the Pry Gem throughout development.
+
+As my Flatiron School bootcamp capstone project I plan on continuing development in the future. My stretch goals are to update styling with a framework, update how DateTime is displayed with Regex, add a way to confirm a user's account with a WordPress WPForms email confirmation, and host this SPA on Heroku to easily show off my completed project.
+
+
 # Project Template: React/Rails API
 
 ## Description
